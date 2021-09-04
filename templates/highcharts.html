@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block body %}
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Highcharts with Fetch API</h2>
+            <div id="chart-1" data-url="{% url 'chart-data' %}">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h4 class="pt-5">First 10 passengers in alphabetical order</h4>
+            <ul class="passengers">
+                {% for i in passengers %}
+                    <li>{{ i.name }} - Age: {{ i.age|floatformat:"0" }} - Ticket: {{ i.ticket_class }}st Class</li>
+                {% empty %}
+                    <li>No data to display</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Highcharts with jQuery Ajax</h2>
+            <div id="chart-2" data-url="{% url 'chart-data' %}">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h4 class="pt-5">Last 10 passengers in alphabetical order</h4>
+            <ul class="passengers">
+                {% for i in last_passengers %}
+                    <li>{{ i.name }} - Age: {{ i.age|floatformat:"0" }} - Ticket: {{ i.ticket_class }}rd Class</li>
+                {% empty %}
+                    <li>No data to display</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <script src="{% static  "js/highcharts.js" %}"></script>
+{% endblock %}

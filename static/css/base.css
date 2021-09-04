@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Andale Mono, serif;
+}
+
+h1, h2 {
+    font-family: Andale Mono, serif;
+    text-align: center;
+}
+
+ul.passengers li::marker {
+    font-size: 150%;
+    display: list-item;
+    content: "# ";
+    color: rgb(144, 237, 125);
+}
+
+.footer {
+    flex: 1;
+    background: rgba(129, 121, 141, 0.68);
+}

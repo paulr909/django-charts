@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block body %}
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <h2>Chart-JS with Fetch API</h2>
+            <canvas id="pie-chart-data" data-url="{% url 'pie-chart-data' %}" width="300" height="125"></canvas>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <h2>Chart-JS with DRF and Fetch API</h2>
+            <canvas id="pie-chart-data-1" width="300" height="125"></canvas>
+        </div>
+    </div>
+    <div class="row mt-5 pt-5">
+        <div class="col-md-6 col-sm-12">
+            <h2>Chart-JS with jQuery AJAX</h2>
+            <canvas id="population-chart-data" data-url="{% url 'population-chart-data' %}" width="300"
+                    height="175"></canvas>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <h2>Chart-JS with DRF and Fetch API</h2>
+            <canvas id="pie-chart-data-2" width="300" height="125"></canvas>
+        </div>
+    </div>
+
+    <script src="{% static  "js/chart-js.js" %}"></script>
+    <script src="{% static  "js/chart-js-api.js" %}"></script>
+
+{% endblock %}

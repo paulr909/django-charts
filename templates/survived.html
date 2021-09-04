@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block body %}
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Highcharts with Fetch API</h2>
+            <div id="chart-3" data-url="{% url 'survived-data' %}">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h2>Highcharts with Fetch API</h2>
+            <div id="chart-4" data-url="{% url 'chart-data' %}">
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static  "js/survived.js" %}"></script>
+{% endblock %}
