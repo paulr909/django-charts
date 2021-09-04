@@ -13,6 +13,8 @@ Migrate the database:
 
 ```bash
 python manage.py migrate
+
+python manage.py makemigrations
 ```
 
 ```bash
