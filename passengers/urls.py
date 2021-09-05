@@ -1,6 +1,6 @@
 from django.urls import path
 from passengers import views
-from .views import CitiesListAPIView, PopulationListAPIView
+from .views import CitiesListAPIView, PassengerListAPIView
 
 urlpatterns = [
     # highcharts data views
@@ -16,5 +16,5 @@ urlpatterns = [
     path("chart-js/", views.chart_js, name="chart-js"),
     # DRF api's
     path("api/v1/cities/", CitiesListAPIView.as_view()),
-    path("api/v1/population/", PopulationListAPIView.as_view()),
+    path("api/v1/passengers/", PassengerListAPIView.as_view()),
 ]

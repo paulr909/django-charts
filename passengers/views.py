@@ -4,7 +4,7 @@ from django.http import JsonResponse
 from rest_framework.generics import ListAPIView
 from rest_framework.permissions import AllowAny
 from .models import Passenger, City
-from .serializers import CitiesSerializer, PopulationSerializer
+from .serializers import CitiesSerializer, PassengerSerializer
 
 
 def home(request):
@@ -155,7 +155,7 @@ class CitiesListAPIView(ListAPIView):
     permission_classes = (AllowAny,)
 
 
-class PopulationListAPIView(ListAPIView):
+class PassengerListAPIView(ListAPIView):
     queryset = Passenger.objects.all()[10:14]
-    serializer_class = PopulationSerializer
+    serializer_class = PassengerSerializer
     permission_classes = (AllowAny,)
