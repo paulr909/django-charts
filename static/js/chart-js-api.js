@@ -60,7 +60,7 @@ fetch("http://127.0.0.1:8000/api/v1/cities/")
 
 const chartPie2 = document.querySelector("#pie-chart-data-2");
 
-fetch("http://127.0.0.1:8000/api/v1/population/")
+fetch("http://127.0.0.1:8000/api/v1/passengers/")
     .then(response => response.json())
     // .then(data => console.log(data))
     .then(data => {
