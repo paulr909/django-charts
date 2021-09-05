@@ -102,3 +102,6 @@ ENV/
 
 #*.sqlite3
 .DS_Store
+
+# PyCharm settings
+.idea/
