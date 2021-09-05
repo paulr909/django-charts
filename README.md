@@ -9,14 +9,6 @@ Install the requirements:
 pip install -r requirements.txt
 ```
 
-Migrate the database:
-
-```bash
-python manage.py migrate
-
-python manage.py makemigrations
-```
-
 ```bash
 python manage.py runserver
 ```
