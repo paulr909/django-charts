@@ -38,3 +38,11 @@ class City(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Browser(models.Model):
+    name = models.CharField(max_length=100)
+    y = models.FloatField()
+
+    def __str__(self):
+        return self.name

@@ -1,0 +1,58 @@
+[
+  {
+    "model": "passengers.browser",
+    "fields": {
+      "id": 1,
+      "name": "Chrome",
+      "y": 64.92
+    }
+  },
+  {
+    "model": "passengers.browser",
+    "fields": {
+      "id": 2,
+      "name": "Internet Explorer",
+      "y": 11.84
+    }
+  },
+  {
+    "model": "passengers.browser",
+    "fields": {
+      "id": 3,
+      "name": "Firefox",
+      "y": 3.54
+    }
+  },
+  {
+    "model": "passengers.browser",
+    "fields": {
+      "id": 4,
+      "name": "Edge",
+      "y": 3.56
+    }
+  },
+  {
+    "model": "passengers.browser",
+    "fields": {
+      "id": 5,
+      "name": "Safari",
+      "y": 18.77
+    }
+  },
+  {
+    "model": "passengers.browser",
+    "fields": {
+      "id": 6,
+      "name": "Samsung Internet",
+      "y": 3.06
+    }
+  },
+  {
+    "model": "passengers.browser",
+    "fields": {
+      "id": 7,
+      "name": "Opera",
+      "y": 2.17
+    }
+  }
+]

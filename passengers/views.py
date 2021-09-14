@@ -3,8 +3,8 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from rest_framework.generics import ListAPIView
 from rest_framework.permissions import AllowAny
-from .models import Passenger, City
-from .serializers import CitiesSerializer, PassengerSerializer
+from .models import Browser, Passenger, City
+from .serializers import CitiesSerializer, PassengerSerializer, BrowserSerializer
 
 
 def home(request):
@@ -158,4 +158,10 @@ class CitiesListAPIView(ListAPIView):
 class PassengerListAPIView(ListAPIView):
     queryset = Passenger.objects.all()[10:14]
     serializer_class = PassengerSerializer
+    permission_classes = (AllowAny,)
+
+
+class BrowserListAPIView(ListAPIView):
+    queryset = Browser.objects.all()
+    serializer_class = BrowserSerializer
     permission_classes = (AllowAny,)
