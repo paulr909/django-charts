@@ -13,7 +13,6 @@ urlpatterns = [
     path("highcharts/data/", views.chart_data, name="chart-data"),
     path("survived/data/", views.ticket_class_view, name="survived-data"),
     path("highcharts/", views.charts, name="charts"),
-    path("survived/", views.survived, name="survived"),
     # chart.js data views
     path("pie-chart/data/", views.pie_chart, name="pie-chart-data"),
     path(

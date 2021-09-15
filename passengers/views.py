@@ -20,8 +20,7 @@ def home(request):
 def charts(request):
     # list items
     passengers = Passenger.objects.all().order_by("id")[:10]
-    last_passengers = Passenger.objects.all().order_by("-id")[:10:-1]
-    context = {"passengers": passengers, "last_passengers": last_passengers}
+    context = {"passengers": passengers}
     return render(request, "highcharts.html", context=context)
 
 

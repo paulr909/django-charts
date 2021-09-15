@@ -7,12 +7,12 @@ Highcharts.setOptions({
     }
 });
 
-const chart3 = document.querySelector("#chart-3");
+const chart5 = document.querySelector("#chart-5");
 
-fetch(chart3.dataset.url)
+fetch(chart5.dataset.url)
     .then(response => response.json())
     .then(data => {
-        Highcharts.chart("chart-3", data);
+        Highcharts.chart("chart-5", data);
     })
     .catch(error => {
         console.error('Error with fetch operation:', error);
