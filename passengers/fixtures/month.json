@@ -1,85 +1,85 @@
 [
   {
     "model": "passengers.month",
+    "pk": 1,
     "fields": {
-      "id": 1,
       "month": "Jan"
     }
   },
   {
     "model": "passengers.month",
+    "pk": 2,
     "fields": {
-      "id": 2,
       "month": "Feb"
     }
   },
   {
     "model": "passengers.month",
+    "pk": 3,
     "fields": {
-      "id": 3,
       "month": "Mar"
     }
   },
   {
     "model": "passengers.month",
+    "pk": 4,
     "fields": {
-      "id": 4,
       "month": "Apr"
     }
   },
   {
     "model": "passengers.month",
+    "pk": 5,
     "fields": {
-      "id": 5,
       "month": "May"
     }
   },
   {
     "model": "passengers.month",
+    "pk": 6,
     "fields": {
-      "id": 6,
       "month": "Jun"
     }
   },
   {
     "model": "passengers.month",
+    "pk": 7,
     "fields": {
-      "id": 7,
       "month": "Jul"
     }
   },
   {
     "model": "passengers.month",
+    "pk": 8,
     "fields": {
-      "id": 8,
       "month": "Aug"
     }
   },
   {
     "model": "passengers.month",
+    "pk": 9,
     "fields": {
-      "id": 9,
       "month": "Sep"
     }
   },
   {
     "model": "passengers.month",
+    "pk": 10,
     "fields": {
-      "id": 10,
       "month": "Oct"
     }
   },
   {
     "model": "passengers.month",
+    "pk": 11,
     "fields": {
-      "id": 11,
       "month": "Nov"
     }
   },
   {
     "model": "passengers.month",
+    "pk": 12,
     "fields": {
-      "id": 12,
       "month": "Dec"
     }
   }

@@ -1,204 +1,204 @@
 [
   {
     "model": "passengers.country",
+    "pk": 1,
     "fields": {
-      "id": 1,
       "name": "Brazil"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 2,
     "fields": {
-      "id": 2,
       "name": "Turkey"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 3,
     "fields": {
-      "id": 3,
       "name": "Italy"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 4,
     "fields": {
-      "id": 4,
       "name": "Bangladesh"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 5,
     "fields": {
-      "id": 5,
       "name": "Canada"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 6,
     "fields": {
-      "id": 6,
       "name": "France"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 7,
     "fields": {
-      "id": 7,
       "name": "Peru"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 8,
     "fields": {
-      "id": 8,
       "name": "Argentina"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 9,
     "fields": {
-      "id": 9,
       "name": "Nigeria"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 10,
     "fields": {
-      "id": 10,
       "name": "Australia"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 11,
     "fields": {
-      "id": 11,
       "name": "Iran"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 12,
     "fields": {
-      "id": 12,
       "name": "Singapore"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 13,
     "fields": {
-      "id": 13,
       "name": "China"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 14,
     "fields": {
-      "id": 14,
       "name": "Chile"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 15,
     "fields": {
-      "id": 15,
       "name": "Thailand"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 16,
     "fields": {
-      "id": 16,
       "name": "Germany"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 17,
     "fields": {
-      "id": 17,
       "name": "Spain"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 18,
     "fields": {
-      "id": 18,
       "name": "Philippines"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 19,
     "fields": {
-      "id": 19,
       "name": "Indonesia"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 20,
     "fields": {
-      "id": 20,
       "name": "United States"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 21,
     "fields": {
-      "id": 21,
       "name": "South Korea"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 22,
     "fields": {
-      "id": 22,
       "name": "Pakistan"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 23,
     "fields": {
-      "id": 23,
       "name": "Angola"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 24,
     "fields": {
-      "id": 24,
       "name": "Mexico"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 25,
     "fields": {
-      "id": 25,
       "name": "India"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 26,
     "fields": {
-      "id": 26,
       "name": "United Kingdom"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 27,
     "fields": {
-      "id": 27,
       "name": "Colombia"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 28,
     "fields": {
-      "id": 28,
       "name": "Japan"
     }
   },
   {
     "model": "passengers.country",
+    "pk": 29,
     "fields": {
-      "id": 29,
       "name": "Taiwan"
     }
   }
