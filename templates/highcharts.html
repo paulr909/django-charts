@@ -3,6 +3,20 @@
 
 {% block body %}
     <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h2>Highcharts with DRF and Fetch API</h2>
+            <div id="chart-3">
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5 pt-5">
+        <div class="col-md-8 offset-md-2">
+            <h2>Highcharts with DRF and Fetch API</h2>
+            <div id="chart-4">
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5 pt-5">
         <div class="col-md-6">
             <h2>Highcharts with Fetch API</h2>
             <div id="chart-1" data-url="{% url 'chart-data' %}">
@@ -19,7 +33,7 @@
             </ul>
         </div>
     </div>
-    <div class="row">
+    <div class="row mt-5 pt-5">
         <div class="col-md-6">
             <h2>Highcharts with jQuery Ajax</h2>
             <div id="chart-2" data-url="{% url 'chart-data' %}">
@@ -36,17 +50,8 @@
             </ul>
         </div>
     </div>
-    <div class="row mt-5 pt-5">
-        <div class="col-md-8 offset-md-2">
-            <h2>Highcharts with DRF and Fetch API</h2>
-            <div id="chart-3">
-            </div>
-        </div>
-        <div class="col-md-6">
-
-        </div>
-    </div>
 
     <script src="{% static  "js/highcharts.js" %}"></script>
     <script src="{% static  "js/highcharts-fetch.js" %}"></script>
+    <script src="{% static  "js/highcharts-rainfall.js" %}"></script>
 {% endblock %}

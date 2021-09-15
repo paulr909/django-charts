@@ -1,0 +1,86 @@
+[
+  {
+    "model": "passengers.month",
+    "fields": {
+      "id": 1,
+      "month": "Jan"
+    }
+  },
+  {
+    "model": "passengers.month",
+    "fields": {
+      "id": 2,
+      "month": "Feb"
+    }
+  },
+  {
+    "model": "passengers.month",
+    "fields": {
+      "id": 3,
+      "month": "Mar"
+    }
+  },
+  {
+    "model": "passengers.month",
+    "fields": {
+      "id": 4,
+      "month": "Apr"
+    }
+  },
+  {
+    "model": "passengers.month",
+    "fields": {
+      "id": 5,
+      "month": "May"
+    }
+  },
+  {
+    "model": "passengers.month",
+    "fields": {
+      "id": 6,
+      "month": "Jun"
+    }
+  },
+  {
+    "model": "passengers.month",
+    "fields": {
+      "id": 7,
+      "month": "Jul"
+    }
+  },
+  {
+    "model": "passengers.month",
+    "fields": {
+      "id": 8,
+      "month": "Aug"
+    }
+  },
+  {
+    "model": "passengers.month",
+    "fields": {
+      "id": 9,
+      "month": "Sep"
+    }
+  },
+  {
+    "model": "passengers.month",
+    "fields": {
+      "id": 10,
+      "month": "Oct"
+    }
+  },
+  {
+    "model": "passengers.month",
+    "fields": {
+      "id": 11,
+      "month": "Nov"
+    }
+  },
+  {
+    "model": "passengers.month",
+    "fields": {
+      "id": 12,
+      "month": "Dec"
+    }
+  }
+]

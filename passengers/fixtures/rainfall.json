@@ -1,0 +1,434 @@
+[
+  {
+    "model": "passengers.rainfall",
+    "pk": 1,
+    "fields": {
+      "value": 49.9,
+      "month": 1,
+      "city": 1
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 2,
+    "fields": {
+      "value": 70.5,
+      "month": 2,
+      "city": 1
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 3,
+    "fields": {
+      "value": 106.4,
+      "month": 3,
+      "city": 1
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 4,
+    "fields": {
+      "value": 129.2,
+      "month": 4,
+      "city": 1
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 5,
+    "fields": {
+      "value": 144.0,
+      "month": 5,
+      "city": 1
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 6,
+    "fields": {
+      "value": 176.0,
+      "month": 6,
+      "city": 1
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 7,
+    "fields": {
+      "value": 135.6,
+      "month": 7,
+      "city": 1
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 8,
+    "fields": {
+      "value": 148.5,
+      "month": 8,
+      "city": 1
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 9,
+    "fields": {
+      "value": 216.4,
+      "month": 9,
+      "city": 1
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 10,
+    "fields": {
+      "value": 194.1,
+      "month": 10,
+      "city": 1
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 11,
+    "fields": {
+      "value": 95.6,
+      "month": 11,
+      "city": 1
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 12,
+    "fields": {
+      "value": 54.4,
+      "month": 12,
+      "city": 1
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 13,
+    "fields": {
+      "value": 83.6,
+      "month": 1,
+      "city": 2
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 14,
+    "fields": {
+      "value": 78.8,
+      "month": 2,
+      "city": 2
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 15,
+    "fields": {
+      "value": 98.5,
+      "month": 3,
+      "city": 2
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 16,
+    "fields": {
+      "value": 93.4,
+      "month": 4,
+      "city": 2
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 17,
+    "fields": {
+      "value": 106.0,
+      "month": 5,
+      "city": 2
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 18,
+    "fields": {
+      "value": 84.5,
+      "month": 6,
+      "city": 2
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 19,
+    "fields": {
+      "value": 105.0,
+      "month": 7,
+      "city": 2
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 20,
+    "fields": {
+      "value": 104.3,
+      "month": 8,
+      "city": 2
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 21,
+    "fields": {
+      "value": 91.2,
+      "month": 9,
+      "city": 2
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 22,
+    "fields": {
+      "value": 83.5,
+      "month": 10,
+      "city": 2
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 23,
+    "fields": {
+      "value": 106.6,
+      "month": 11,
+      "city": 2
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 24,
+    "fields": {
+      "value": 92.3,
+      "month": 12,
+      "city": 2
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 25,
+    "fields": {
+      "value": 48.9,
+      "month": 1,
+      "city": 3
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 26,
+    "fields": {
+      "value": 38.8,
+      "month": 2,
+      "city": 3
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 27,
+    "fields": {
+      "value": 39.3,
+      "month": 3,
+      "city": 3
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 28,
+    "fields": {
+      "value": 41.4,
+      "month": 4,
+      "city": 3
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 29,
+    "fields": {
+      "value": 47.0,
+      "month": 5,
+      "city": 3
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 30,
+    "fields": {
+      "value": 48.3,
+      "month": 6,
+      "city": 3
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 31,
+    "fields": {
+      "value": 59.0,
+      "month": 7,
+      "city": 3
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 32,
+    "fields": {
+      "value": 59.6,
+      "month": 8,
+      "city": 3
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 33,
+    "fields": {
+      "value": 52.4,
+      "month": 9,
+      "city": 3
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 34,
+    "fields": {
+      "value": 65.2,
+      "month": 10,
+      "city": 3
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 35,
+    "fields": {
+      "value": 59.3,
+      "month": 11,
+      "city": 3
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 36,
+    "fields": {
+      "value": 51.2,
+      "month": 12,
+      "city": 3
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 37,
+    "fields": {
+      "value": 42.4,
+      "month": 1,
+      "city": 4
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 38,
+    "fields": {
+      "value": 33.2,
+      "month": 2,
+      "city": 4
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 39,
+    "fields": {
+      "value": 34.5,
+      "month": 3,
+      "city": 4
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 40,
+    "fields": {
+      "value": 39.7,
+      "month": 4,
+      "city": 4
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 41,
+    "fields": {
+      "value": 52.6,
+      "month": 5,
+      "city": 4
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 42,
+    "fields": {
+      "value": 75.5,
+      "month": 6,
+      "city": 4
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 43,
+    "fields": {
+      "value": 57.4,
+      "month": 7,
+      "city": 4
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 44,
+    "fields": {
+      "value": 60.4,
+      "month": 8,
+      "city": 4
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 45,
+    "fields": {
+      "value": 47.6,
+      "month": 9,
+      "city": 4
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 46,
+    "fields": {
+      "value": 39.1,
+      "month": 10,
+      "city": 4
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 47,
+    "fields": {
+      "value": 46.8,
+      "month": 11,
+      "city": 4
+    }
+  },
+  {
+    "model": "passengers.rainfall",
+    "pk": 48,
+    "fields": {
+      "value": 51.1,
+      "month": 12,
+      "city": 4
+    }
+  }
+]

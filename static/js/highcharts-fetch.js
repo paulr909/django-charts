@@ -15,9 +15,9 @@ fetch("http://127.0.0.1:8000/api/v1/browsers/")
         const chartData = data.map(items => items);
 
         Highcharts.chart("chart-3", {
-            "chart": {"type": "pie"},
-            "title": {"text": "Browser Market Share Worldwide - August 2021"},
-            "credits": {"enabled": false},
+            chart: {type: "pie"},
+            title: {text: "Browser Market Share Worldwide - August 2021"},
+            credits: {enabled: false},
             series: [{
                 name: 'Browser',
                 colorByPoint: true,

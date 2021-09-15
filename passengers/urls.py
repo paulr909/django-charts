@@ -1,6 +1,12 @@
 from django.urls import path
 from passengers import views
-from .views import CitiesListAPIView, PassengerListAPIView, BrowserListAPIView
+from .views import (
+    CitiesListAPIView,
+    PassengerListAPIView,
+    BrowserListAPIView,
+    RainfallListAPIView,
+    MonthListAPIView,
+)
 
 urlpatterns = [
     # highcharts data views
@@ -18,4 +24,6 @@ urlpatterns = [
     path("api/v1/cities/", CitiesListAPIView.as_view()),
     path("api/v1/passengers/", PassengerListAPIView.as_view()),
     path("api/v1/browsers/", BrowserListAPIView.as_view()),
+    path("api/v1/rainfall/", RainfallListAPIView.as_view()),
+    path("api/v1/month/", MonthListAPIView.as_view()),
 ]

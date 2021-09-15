@@ -27,6 +27,9 @@ class Passenger(models.Model):
 class Country(models.Model):
     name = models.CharField(max_length=30)
 
+    class Meta:
+        verbose_name_plural = "Country"
+
     def __str__(self):
         return self.name
 
@@ -35,6 +38,9 @@ class City(models.Model):
     name = models.CharField(max_length=30)
     country = models.ForeignKey(Country, on_delete=models.CASCADE)
     population = models.PositiveIntegerField()
+
+    class Meta:
+        verbose_name_plural = "City"
 
     def __str__(self):
         return self.name
@@ -46,3 +52,43 @@ class Browser(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Month(models.Model):
+    month = models.CharField(max_length=3)
+
+    class Meta:
+        verbose_name_plural = "Month"
+
+    def __str__(self):
+        return self.month
+
+
+class RainfallCity(models.Model):
+    name = models.CharField(max_length=100)
+
+    class Meta:
+        verbose_name_plural = "Rainfall City"
+
+    def __str__(self):
+        return self.name
+
+
+class Rainfall(models.Model):
+    value = models.FloatField()
+    month = models.ForeignKey(Month, on_delete=models.CASCADE)
+    city = models.ForeignKey(RainfallCity, on_delete=models.CASCADE)
+
+    class Meta:
+        verbose_name_plural = "Rainfall"
+
+    @property
+    def month_value(self):
+        return self.month.month
+
+    @property
+    def city_value(self):
+        return self.city.name
+
+    def __str__(self):
+        return f"{self.city} - {self.month} - {self.value}"
