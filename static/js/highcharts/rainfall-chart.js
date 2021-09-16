@@ -1,6 +1,9 @@
 fetch("http://127.0.0.1:8000/api/v1/rainfall/")
     .then(response => response.json())
     .then(data => {
+        const months = Array.from({length: 12}, (item, i) => {
+            return new Date(0, i).toLocaleString('en-GB', {month: 'short'})
+        });
         const chartData = data.map(items => items);
 
         Highcharts.chart("rainfall-chart", {
@@ -8,20 +11,7 @@ fetch("http://127.0.0.1:8000/api/v1/rainfall/")
             title: {text: 'Monthly Average Rainfall'},
             credits: {"enabled": false},
             xAxis: {
-                categories: [
-                    'Jan',
-                    'Feb',
-                    'Mar',
-                    'Apr',
-                    'May',
-                    'Jun',
-                    'Jul',
-                    'Aug',
-                    'Sep',
-                    'Oct',
-                    'Nov',
-                    'Dec'
-                ],
+                categories: months,
                 crosshair: true
             },
             yAxis: {

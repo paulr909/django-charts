@@ -17,7 +17,7 @@ class BrowserSerializer(serializers.ModelSerializer):
 class RainfallSerializer(serializers.ModelSerializer):
     class Meta:
         model = Rainfall
-        fields = ("id", "value", "month", "month_value", "city", "city_value")
+        fields = ("id", "value", "month_value", "city_value")
 
 
 class MonthSerializer(serializers.ModelSerializer):
@@ -29,4 +29,4 @@ class MonthSerializer(serializers.ModelSerializer):
 class SaleSerializer(serializers.ModelSerializer):
     class Meta:
         model = Sale
-        fields = ("id", "value", "month", "month_value", "team", "team_value")
+        fields = ("id", "value", "month_value", "team_value")
