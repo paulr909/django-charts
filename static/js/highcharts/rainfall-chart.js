@@ -1,20 +1,9 @@
-// Highcharts.setOptions({
-//     chart: {
-//         style: {
-//             fontFamily: "'Andale Mono', serif",
-//             fontSize: 20
-//         }
-//     }
-// });
-
-// with Fetch API
-
 fetch("http://127.0.0.1:8000/api/v1/rainfall/")
     .then(response => response.json())
     .then(data => {
         const chartData = data.map(items => items);
 
-        Highcharts.chart("chart-4", {
+        Highcharts.chart("rainfall-chart", {
             chart: {"type": "column"},
             title: {text: 'Monthly Average Rainfall'},
             credits: {"enabled": false},

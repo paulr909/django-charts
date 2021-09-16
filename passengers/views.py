@@ -18,10 +18,7 @@ def home(request):
 
 
 def charts(request):
-    # list items
-    passengers = Passenger.objects.all().order_by("id")[:10]
-    context = {"passengers": passengers}
-    return render(request, "highcharts.html", context=context)
+    return render(request, "highcharts.html")
 
 
 def chart_data(request):
@@ -57,10 +54,6 @@ def chart_data(request):
     }
 
     return JsonResponse(chart)
-
-
-def survived(request):
-    return render(request, "survived.html")
 
 
 def ticket_class_view(request):
