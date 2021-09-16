@@ -92,3 +92,27 @@ class Rainfall(models.Model):
 
     def __str__(self):
         return f"{self.city} - {self.month} - {self.value}"
+
+
+class Team(models.Model):
+    name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
+
+
+class Sale(models.Model):
+    value = models.IntegerField()
+    team = models.ForeignKey(Team, on_delete=models.CASCADE)
+    month = models.ForeignKey(Month, on_delete=models.CASCADE)
+
+    @property
+    def month_value(self):
+        return self.month.month
+
+    @property
+    def team_value(self):
+        return self.team.name
+
+    def __str__(self):
+        return f"{self.team} - {self.month} - {self.value}"

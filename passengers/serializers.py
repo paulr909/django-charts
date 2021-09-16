@@ -1,17 +1,11 @@
 from rest_framework import serializers
-from .models import Browser, City, Passenger, Rainfall, Month
+from .models import Browser, City, Rainfall, Month, Sale
 
 
 class CitiesSerializer(serializers.ModelSerializer):
     class Meta:
         model = City
         fields = ("name", "population")
-
-
-class PassengerSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Passenger
-        fields = "__all__"
 
 
 class BrowserSerializer(serializers.ModelSerializer):
@@ -30,3 +24,9 @@ class MonthSerializer(serializers.ModelSerializer):
     class Meta:
         model = Month
         fields = "__all__"
+
+
+class SaleSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Sale
+        fields = ("id", "value", "month", "month_value", "team", "team_value")

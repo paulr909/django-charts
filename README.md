@@ -18,8 +18,6 @@ The project will be available at **127.0.0.1:8000**.
 ## API's 
 [http://127.0.0.1:8000/api/v1/cities/](http://127.0.0.1:8000/api/v1/cities/)
 
-[http://127.0.0.1:8000/api/v1/passengers/](http://127.0.0.1:8000/api/v1/passengers/)
-
 [http://127.0.0.1:8000/api/v1/browsers/](http://127.0.0.1:8000/api/v1/browsers/)
 
 [http://127.0.0.1:8000/api/v1/rainfall/](http://127.0.0.1:8000/api/v1/rainfall/)
