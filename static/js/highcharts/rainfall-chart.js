@@ -8,7 +8,7 @@ fetch("http://127.0.0.1:8000/api/v1/rainfall/")
         const nyData = data.map(items => items.value).slice(12,24);
         const londonData = data.map(items => items.value).slice(24,36);
         const berlinData = data.map(items => items.value).slice(36,48);
-        console.log(tokyoData)
+        // console.log(tokyoData)
 
         Highcharts.chart("rainfall-chart", {
             chart: {"type": "column"},
