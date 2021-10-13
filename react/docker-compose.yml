@@ -3,7 +3,7 @@ version: '3.7'
 services:
 
   sample:
-    container_name: react-berry
+    container_name: react-fe
     build:
       context: .
       dockerfile: Dockerfile
