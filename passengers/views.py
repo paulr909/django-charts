@@ -11,6 +11,7 @@ from .serializers import (
     MonthSerializer,
     SaleSerializer,
 )
+from drf_multiple_model.views import ObjectMultipleModelAPIView
 
 
 def home(request):
@@ -175,3 +176,13 @@ class SaleListAPIView(ListAPIView):
     queryset = Sale.objects.all()
     serializer_class = SaleSerializer
     permission_classes = (AllowAny,)
+
+
+class MultiModelView(ObjectMultipleModelAPIView):
+    querylist = [
+        {"queryset": Sale.objects.all(), "serializer_class": SaleSerializer},
+        {
+            "queryset": Browser.objects.all(),
+            "serializer_class": BrowserSerializer,
+        },
+    ]

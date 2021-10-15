@@ -6,6 +6,7 @@ from .views import (
     RainfallListAPIView,
     MonthListAPIView,
     SaleListAPIView,
+    MultiModelView,
 )
 
 urlpatterns = [
@@ -25,4 +26,5 @@ urlpatterns = [
     path("api/v1/rainfall/", RainfallListAPIView.as_view()),
     path("api/v1/month/", MonthListAPIView.as_view()),
     path("api/v1/sales/", SaleListAPIView.as_view()),
+    path("api/v1/multi/", MultiModelView.as_view()),
 ]

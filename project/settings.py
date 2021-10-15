@@ -20,6 +20,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "passengers",
     "authentication",
+    "drf_multiple_model",
 ]
 
 MIDDLEWARE = [
