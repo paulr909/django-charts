@@ -1,4 +1,4 @@
-fetch("http://localhost:8000/api/v1/rainfall/")
+fetch("http://127.0.0.1:8000/api/v1/rainfall/")
     .then(response => response.json())
     .then(data => {
         const months = Array.from({length: 12}, (item, i) => {

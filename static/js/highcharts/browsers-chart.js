@@ -1,4 +1,4 @@
-fetch("http://localhost:8000/api/v1/browsers/")
+fetch("http://127.0.0.1:8000/api/v1/browsers/")
     .then(response => response.json())
     .then(data => {
         const chartData = data.map(items => items);

@@ -1,6 +1,6 @@
 const chartSales = document.querySelector("#sales-chart");
 
-fetch("http://localhost:8000/api/v1/sales/")
+fetch("http://127.0.0.1:8000/api/v1/sales/")
     .then(response => response.json())
     // .then(data => console.log(data))
     .then(data => {

@@ -1,7 +1,7 @@
 // with Fetch API
 const chartCities = document.querySelector("#cities-chart");
 
-fetch("http://localhost:8000/api/v1/cities/")
+fetch("http://127.0.0.1:8000/api/v1/cities/")
     .then(response => response.json())
     // .then(data => console.log(data))
     .then(data => {
