@@ -3,6 +3,8 @@ from django.urls import path, include
 
 from passengers import views
 
+admin.site.index_title = "Charts Admin"
+admin.site.site_header = "Charts Admin"
 
 urlpatterns = [
     path("admin/", admin.site.urls),
